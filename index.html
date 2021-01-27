@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="submit-area" class="container pt-5">
+        <div class="title text-center">
+            <H1>Welcome To HB Bank</H1>
+        </div>
+        <div class="from-area mt-5">
+            <h2>login</h2>
+            <br>
+            <input type="text" placeholder="Enter your email" class="form-control">
+            <br>
+            <input type="password" placeholder="Enter your password" class="form-control">
+            <br>
+            <button id="sub-btn" class="btn btn-success" type="submit">Submit</button>
+        </div>
+    </div>
+    <div id="trans-area">
+        <div class="title-sec container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="status Deposit">
+                        <h5>Deposit</h5>
+                        <h2>$ <span id="deposit-text">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="status Withdraw">
+                        <h5>Withdraw</h5>
+                        <h2>$ <span id="withdraw-text">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="status Balance">
+                        <h5>Balance</h5>
+                        <h2>$ <span id="blance-text">1240</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="submit-frm mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="round">
+                            <h4>Deposit</h4>
+                            <input id="deposit-input" type="text" class="form-control"
+                                placeholder="$ amount you want to deposit">
+                            <br>
+                            <button id="deposit-btn" class="btn btn-success" type="submit">Deposit</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="round">
+                            <h4>Withdraw</h4>
+                            <input id="withdraw-input" type="text" class="form-control"
+                                placeholder="$ amount you want to withdraw">
+                            <br>
+                            <button id="withdraw-btn" class="btn btn-success" type="submit">Withdraw</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

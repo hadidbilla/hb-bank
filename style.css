@@ -1,0 +1,29 @@
+.from-area {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 15px gray;
+}
+#trans-area {
+  display: none;
+  margin-top: 100px;
+}
+.status {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px grey;
+  color: white;
+}
+.Withdraw {
+  background-color: slateblue;
+}
+.Deposit {
+  background-color: lightsalmon;
+}
+.Balance {
+  background-color: orange;
+}
+.round {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
